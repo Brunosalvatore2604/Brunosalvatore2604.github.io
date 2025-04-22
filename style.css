@@ -1,39 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #111;
-    color: #eee;
-    line-height: 1.6;
-  }
-  
-  header {
-    background: #222;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    color: #66fcf1;
-    text-decoration: none;
-  }
-  
-  section {
-    padding: 2rem;
-  }
-  
-  .proyecto {
-    background: #333;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-left: 4px solid #66fcf1;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background: #222;
-    color: #888;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+nav a {
+  color: #66fcf1;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  border-bottom: 2px solid #66fcf1;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #66fcf1;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.proyecto {
+  background-color: #333;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.proyecto h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.proyecto p {
+  margin-bottom: 1rem;
+}
+
+.proyecto .btn {
+  background-color: #66fcf1;
+  color: #111;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.proyecto .btn:hover {
+  background-color: #45e0c7;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #66fcf1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+footer {
+  background-color: #222;
+  color: #888;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
